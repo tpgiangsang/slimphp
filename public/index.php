@@ -6,7 +6,7 @@ require '../vendor/autoload.php';
 
 $app = new \Slim\App;
 
-//routing management.
+//routing
 require_once('../api/novels.php');
 require_once('../api/contacts.php');
 
